@@ -124,7 +124,7 @@
                     while($row = mysqli_fetch_array($query)){
                     ?>
             
-                <div class="col-md-3">
+                    <div class="col-md-4">
 
                 <h4>
                     <?php echo $row["product_name"]; ?>
@@ -135,13 +135,15 @@
                 </div>
             </div>
        
+               
+               
     
         <?php
                 }
                }
             ?>
         </div>
-             
+    </div>
       
            <div class="container-fluid text-center">
                 <h1 class="t_title">Latest Arrivals</h1>
