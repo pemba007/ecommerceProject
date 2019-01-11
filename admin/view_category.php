@@ -1,5 +1,5 @@
 <?php 
-session_start(); 
+@session_start(); 
 if(!isset($_SESSION['email'])){
   echo "<script>window.open('login.php?not_admin=You are not an Admin!','_self')</script>";
 }

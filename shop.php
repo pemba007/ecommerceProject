@@ -116,10 +116,11 @@ if(isset($_GET["action"]))
 					while($row = mysqli_fetch_array($query))
 					{
 				?>
-        <div class="col-md-3">
+		<div class="container">
+           <div class="col-md-8">
             <form method="post" action="">
-                <div style="border:1px solid #333; background-color:#f1f1f1; border-radius:5px; padding:16px;" align="center">
-                    <img src="images/<?php echo $row["product_image"]; ?>" class="img-responsive"style="width: 100%; height:225px"/><br />
+                <div style="border:1px solid #333; background-color:#f1f1f1; border-radius:30px; padding:10px;" align="center">
+                    <img src="images/<?php echo $row["product_image"]; ?>" class="img-responsive"style="width: 250px; height:150px"/><br />
 
                     <h4 class="p_title">
                         <?php echo $row["product_name"]; ?>
@@ -146,6 +147,7 @@ if(isset($_GET["action"]))
                 </div>
             </form>
         </div>
+    </div>
 
         <?php
 					}
@@ -156,7 +158,7 @@ if(isset($_GET["action"]))
     </div>
 
 </body>
-<br></br> <a href="order_details.php" class="btn btn-success insert-btn">View Order Details</a>
+<br></br> <a href="order_details.php" class="btn btn-success">View Order Details</a>
 
 </html>
 

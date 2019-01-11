@@ -133,7 +133,7 @@ if(isset($_GET['product_id'])){
          
          echo "<script>alert('Product has been updated!')</script>";
          
-         echo "<script>window.open('dashboard.php?view_products','_self')</script>";
+         echo "<script>window.open('index.php?view_products','_self')</script>";
         }
     }
          

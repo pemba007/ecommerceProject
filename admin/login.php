@@ -58,7 +58,7 @@ session_start();
 	  	$check_ad = mysqli_num_rows($run_ad); 
 		  if($check_ad==1){
 		  $_SESSION['email']=$email; 
-		  echo "<script>window.open('dashboard.php?logged_in=You have successfully Logged in!','_self')</script>";
+		  echo "<script>window.open('index.php?logged_in=You have successfully Logged in!','_self')</script>";
 		  }
 	  
 	}else {

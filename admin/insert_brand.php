@@ -28,7 +28,7 @@ include("../include/connect.php");
 	if($run_brand){
 	
 	echo "<script>alert('New Brand has been inserted!')</script>";
-	echo "<script>window.open('dashboard.php?view_brands','_self')</script>";
+	echo "<script>window.open('index.php?view_brands','_self')</script>";
 	}
 	}
 

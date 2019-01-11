@@ -81,6 +81,7 @@
                             <label for="address"><b>Address</b></label>
                             <input type="text" class="form-control" placeholder="Enter Address" name="customer_address" required>
                         </div>
+                        
                         <div class="form-group">
                             <button type="submit" class="btn btn-success" name="register">Submit</button>
                             <button type="button" class="btn btn-danger">cancel</button>
@@ -98,7 +99,7 @@
    include("include/connect.php");  
    if(isset($_POST['register']))
    {
-          $c_name=$_POST['customer_name'];
+          $c_name= mysqli_real_escape_string($con,$_POST['customer_name']);
           $c_image=$_FILES['customer_image'];
           $c_image= $_FILES['customer_image']['name'];  
           $c_tmp_image= $_FILES['customer_image']['tmp_name'];  
@@ -111,10 +112,10 @@
     {
         echo 'error uploading the file!!';
     }
-          $c_email=$_POST['customer_email'];
-          $c_password=$_POST['customer_password'];
-          $c_phone=$_POST['customer_phone'];
-          $c_address=$_POST['customer_address'];
+          $c_email=mysqli_real_escape_string($con,$_POST['customer_email']);
+          $c_password= mysqli_real_escape_string($con,$_POST['customer_password']);
+          $c_phone= mysqli_real_escape_string($con,$_POST['customer_phone']);
+          $c_address= mysqli_real_escape_string($con,$_POST['customer_address']);
        
         $q=" INSERT INTO tbl_customer (`customer_name`, `customer_image`,`customer_email`,`customer_password`,`customer_phone`,`customer_address`) VALUES('$c_name','$c_image','$c_email','$c_password','$c_phone','$c_address')";
     $query=mysqli_query($con,$q);

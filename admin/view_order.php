@@ -1,5 +1,5 @@
 <?php 
-session_start(); 
+@session_start(); 
 if(!isset($_SESSION['email'])){
   echo "<script>window.open('login.php?not_admin=You are not an Admin!','_self')</script>";
 }
@@ -82,7 +82,7 @@ else {
                     <td>
                         <?php echo $tax;?>
                     </td>
-                    <td><a href="dashboard.php?confirm_order=<?php echo $order_id; ?>">Complete Order</a></td>
+                    <td><a href="index.php?confirm_order=<?php echo $order_id; ?>">Complete Order</a></td>
 
                 </tr>
                 <?php } ?>

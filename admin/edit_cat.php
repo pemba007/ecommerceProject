@@ -28,7 +28,7 @@ if(isset($_GET['cat_id'])){
 </head>
 </body>
 <?php include('../include/sidebar.php');?>
-<form action="" method="post" style="padding:80px;">
+<form action="" method="post" style="padding:200px;">
     <b>Update Category</b>
     <input type="text" name="new_cat" value="<?php echo $cat_title;?>" />
     <input type="submit" name="update_cat" value="Update Category" />
@@ -51,7 +51,7 @@ if(isset($_GET['cat_id'])){
 	if($run_cat){
 	
 	echo "<script>alert(' Category has been updated!')</script>";
-	echo "<script>window.open('dashboard.php?'view_category,'_self')</script>";
+	echo "<script>window.open('index.php?'view_category,'_self')</script>";
 	}
 	}
 

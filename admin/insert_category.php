@@ -40,7 +40,7 @@ include("../include/connect.php");
      $run_cat = mysqli_query($con, $insert_cat); 
 	 if($run_cat){
 	 echo "<script>alert('New Category has been inserted!')</script>";
-	 echo "<script>window.open('dashboard.php?view_category','_self')</script>";
+	 echo "<script>window.open('index.php?view_category','_self')</script>";
 	}
 	}
 

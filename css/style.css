@@ -96,9 +96,21 @@ header {
     font-size: 15px;
     float: right;
 }
-.shop_content{
+.shop-content{
+     position: absolute;
+    bottom: 10px;
+    left: auto;
+    right: 70px;
+}
+
+.shop-content h4 {
     display:flex;
     justify-content: flex-end;
+
+}
+
+.shop-content h4  a {
+   margin-left: 5px;
 }
 .topnav {
   overflow: hidden;

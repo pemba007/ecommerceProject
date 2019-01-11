@@ -10,8 +10,7 @@
     <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+   
 </head>
 <header>
     <nav class="navbar navbar-change navbar-fixed-top" id="navbar">

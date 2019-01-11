@@ -32,7 +32,7 @@ else {
           if($query)
           {
             echo "<script>alert('Post Has Been Submitted Successfully')</script>";
-            header("location:dashboard.php?view_products");
+            header("location:index.php?view_products");
           }
       }
     

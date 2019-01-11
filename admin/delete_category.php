@@ -15,7 +15,7 @@ else {
     $query=mysqli_query($con, $q);
     if($query){
       echo "<script>alert('A customer has been deleted!')</script>";
-      echo "<script>window.open('dashboard.php?view_category','_self')</script>";
+      echo "<script>window.open('index.php?view_category','_self')</script>";
     }
 ?>
  <?php } ?>

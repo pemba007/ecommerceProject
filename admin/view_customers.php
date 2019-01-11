@@ -1,5 +1,5 @@
 <?php 
-session_start(); 
+@session_start(); 
 if(!isset($_SESSION['email'])){
   echo "<script>window.open('login.php?not_admin=You are not an Admin!','_self')</script>";
 }
@@ -87,6 +87,17 @@ else {
 
         </table>
 </body>
+              <script type="text/javascript">
+
+                    $(document).ready(function(){
+                     $('#tabledata').DataTable();
+                   }) 
+                    function confirmDelete()
+                    {
+                     return confirm("Are you sure you want to delete this?");
+                   } 
+                </script>
+
 
 </html>
 <?php 
