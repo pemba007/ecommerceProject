@@ -8,14 +8,7 @@ else {
 <html>
 
 <head>
-    <title>Admin Panel</title>
-    <meta name="viewport" content="width=device-width,initial-scale,1.0">
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
-    <link rel="stylesheet" type="text/css" href="../css/style1.css" />
-    <link rel="stylesheet" type="text/css" href="../css/dash.css" />
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+     <?php include("../include/head.php");?>
 </head>
 
 <body class="dashboard-body">

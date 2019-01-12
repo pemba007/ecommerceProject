@@ -7,6 +7,9 @@ else {
 ?>
 <!DOCTYPE html>
 <html lang="en">
+<head>
+     <?php include("../include/head.php");?>
+ </head>
 
 <body>
     <div class="container">
@@ -18,7 +21,7 @@ else {
                 </div>
             </div>
 
-            <table align="center" border="1px" width="100%">
+                <table align="center" border="1px" width="100%">
                 <tr>
                     <th>Product_id</th>
                     <th>Product_category</th>
@@ -31,6 +34,7 @@ else {
                     <th>Edit</th>
                 </tr>
         </div>
+        
         <?php
            include("../include/connect.php"); 
            $q = "select * from tbl_product ";

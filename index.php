@@ -90,7 +90,7 @@
                 <h3 class="category">All Categories</h3>
                 <ul class="list-unstyled">
                     <ul class="list-group">
-                        <li class="list-group-item"><a href="#" class="text-danger">Tv & Audio</a></li>
+                        <li class="list-group-item"><a href="shop.php" class="text-danger">Tv & Audio</a></li>
                         <li class="list-group-item"><a href="#washing machine" class="text-danger">Washing Machine</a></li>
                         <li class="list-group-item"><a href="#Services " class="text-danger">Camera</a></li>
                         <li class="list-group-item"><a href="#Faqs" class="text-danger">Refrigerator</a></li>
@@ -105,7 +105,7 @@
             <div class="col-md-4">
                 <h3 class="t_title">SHOP TO GET WHAT YOU WANT</h3>
                 <h3>THE NEW WAY OF WATCHING</h3>
-                <a class="btn mybtn" href="shop.php">Buy now</a>
+                <a class="btn mybtn" href="index.php">Buy now</a>
             </div>
 
             <div class="col-md-5">

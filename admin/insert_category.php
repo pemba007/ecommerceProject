@@ -8,7 +8,7 @@ else {
 <!DOCTYPE HTML>
 <html>
 <head>
-        <title>Insert Category</title>
+        <?php include("../include/head.php");?>
 </head>
 <body>
   <?php include("../include/sidebar.php");?>

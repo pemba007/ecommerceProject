@@ -36,7 +36,6 @@ if(isset($_GET['product_id'])){
 <head>
     <?php include("../include/head.php");?>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Edit Product</title>
 </head>
 
 <body>

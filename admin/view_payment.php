@@ -8,8 +8,7 @@ else {
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>View Payment</title>
+ <?php include("../include/head.php");?>
 </head>
 <body>
 <div class="panel panel-default">
